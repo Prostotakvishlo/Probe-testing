@@ -1,0 +1,5 @@
+A=list(map(int,input().split()))
+K=max(A)
+G=A.count(K)
+G1=A.index(K)
+print('Количество=',G,'Местоположение=',G1)
